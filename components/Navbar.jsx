@@ -10,11 +10,7 @@ const Navbar = () => {
     <div className="navbar-container">
       <p className="logo">
         <Link href={"/"}>
-          <Image
-            src="/../public/digitalHeavenLogo.png"
-            width={123}
-            height={60}
-          />
+          <Image src="/public/digitalHeavenLogo.png" width={123} height={60} />
         </Link>
       </p>
       <button
